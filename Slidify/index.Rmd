@@ -1,0 +1,50 @@
+---
+title       : A little Exercise on R	
+subtitle    : just a short slidify presentation
+author      : Surya kallakuri
+job         : IT Consultant
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+---
+
+## About the Data
+
+R offers a large number of pre-loaded datasets.
+
+mtcars contains data about "Motor Trend Car Road Tests".
+
+The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models).
+
+---
+### A data frame with 32 observations on 11 variables.
+
+mpg
+
+
+```{r echo = FALSE, results = 'asis'}
+summary(mtcars$mpg)
+
+```
+
+hp
+
+```{r echo = FALSE, results = 'asis'}
+summary(mtcars$hp)
+
+```
+
+
+---
+
+---
+
+---
+### Goodbye for now
+
+Bye
+
+---
+
